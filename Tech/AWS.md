@@ -11,10 +11,16 @@
 
 [Download the AWS Command Line Interface](https://aws.amazon.com/cli/)
 
+### Admin
+
 * `aws configure` - sets the credentials to be used for the AWS CLI; requires an account with an access key to have been set up
+
+### ECR
+
+* `aws ecr create-repository --repository-name hello-repository --region us-east-2` - creates an ECR repository called *hello-repository* with the region *us-east-2*
+* `aws ecr delete-repository --repository-name hello-repository --region region --force` -  deletes an ECR repository called *hello-repository* with the region *us-east-2*
 * `aws ecr get-login --no-include-email` - returns a login command for Docker
 * `Invoke-Expression -Command (aws ecr get-login --region us-east-2 --no-include-email)` *(Powershell)* - completes a Docker login in one command
-
 
 ----
 
