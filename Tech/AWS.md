@@ -12,6 +12,13 @@
 * Elastic Container Registry (ECR) - a Docker container registry to store, manage and deploy container images
 * Elastic Compute Cloud (EC2) - web service that provides secure, resizable compute capacity in the cloud
 * Elastic Container Service (ECS) - a regional grouping of one or more container instances on which you can run task requests
+* Elastic Load Balancing (ELB) - automatically distributes incoming application traffic across multiple targets
+* Elastic Block Store (EBS) - high performance block storage service designed for use with EC2
+* Elastic File System (EFS) - a simple, scalable, fully managed elastic network file system (NFS)
+* Relational Database Service (RDS) -  simple, scalable, fully managed relational database
+* Network Access Conctrol Layer (NACL) - an optional layer of security for your VPC that acts as a firewall for controlling traffic in and out of one or more subnets
+* Virtual Private Cloud (VPC) - a virtual network hosted in AWS
+* Amazon Machine Images (AMI) - provides the information required to launch an instance
 
 ----
 

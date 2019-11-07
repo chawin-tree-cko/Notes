@@ -48,3 +48,4 @@ ENTRYPOINT ["dotnet", "app/myapp.dll"]
 * `docker attach --sig-proxy=false` - connects to a container while ensuring that detatchment won't stop the container process
 * `docker run -it --rm myimage` - creates and starts a container based off the image *myimage*; `-it` uses the current terminal to connect, with `-rm` deleting the image once detached
 * `docker run -it --rm -p 5000:80 --name api myimage` - creates and starts a web API on localhost:5000
+* `docker stop $(docker ps -a -q)` - stops all containers
