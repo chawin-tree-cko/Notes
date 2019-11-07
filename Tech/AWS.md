@@ -1,15 +1,21 @@
 # AWS
 
+## Links
+
+* [AWS Online Console](https://console.aws.amazon.com/console/home)
+* [AWS Command Line Interface](https://aws.amazon.com/cli/)
+
+----
+
 ## Acronyms
 
 * Elastic Container Registry (ECR) - a Docker container registry to store, manage and deploy container images
 * Elastic Compute Cloud (EC2) - web service that provides secure, resizable compute capacity in the cloud
+* Elastic Container Service (ECS) - a regional grouping of one or more container instances on which you can run task requests
 
 ----
 
 ## Useful commands
-
-[Download the AWS Command Line Interface](https://aws.amazon.com/cli/)
 
 ### Admin
 
