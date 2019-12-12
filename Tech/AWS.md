@@ -19,6 +19,28 @@
 * Network Access Conctrol Layer (NACL) - an optional layer of security for your VPC that acts as a firewall for controlling traffic in and out of one or more subnets
 * Virtual Private Cloud (VPC) - a virtual network hosted in AWS
 * Amazon Machine Images (AMI) - provides the information required to launch an instance
+* Security Token Service (STS) - generates token keys used for AWS access
+
+----
+
+## DynamoDB
+
+### Operations
+
+* **Query** - retrieve data based off the partition key and an option sort key filter
+* **Scan** - scan both a table or secondary index, uses much more resource than a query
+
+### Keys
+
+#### Primary Keys
+
+* **Partition Key** - the key value used as input for a hash function to determine storage
+* **Composite Key** - combines both a partition key as well as a sort key; items have have the same partition key as long as they have a unique sort key
+
+#### Secondary Indexes
+
+* **Local Secondary Index** - indexing based off the same partition key as the table, but with a different sort key
+* **Global Secondary Index** - indexing based off a different partition key and sort key
 
 ----
 
@@ -27,6 +49,8 @@
 ### Admin
 
 * `aws configure` - sets the credentials to be used for the AWS CLI; requires an account with an access key to have been set up
+* `aws sts get-caller-identity` - gets current credentials and roles
+* `aws sts assume-role --role-arn "arn:aws:iam::*ACCOUNT_ID*:role/*ROLE*" --role-session-name "name"` - assumes a role for the specified account
 
 ### ECR
 
