@@ -45,6 +45,7 @@
             "name": "Windows PowerShell",
             "commandline": "powershell.exe",
             "fontFace": "Delugia Nerd Font",
-            "hidden": false
+            "hidden": false,
+            "background": "#1e1e1e"
         },
     ```
